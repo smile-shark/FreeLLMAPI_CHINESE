@@ -1,0 +1,35 @@
+node_modules/
+dist/
+server/data/
+*.db
+*.db-wal
+*.db-shm
+*.bak
+.env
+.env.local
+.DS_Store
+
+# Personal deployment scripts (contain keys/credentials — kept local)
+deploy-pi.sh
+update-hermes.sh
+
+# Monetization planning — private, never committed
+monetization/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# Vite cache
+.vite/
+
+# Editor temp / backup files
+*~
+.vscode/
+.idea/
+
+# Desktop app build artifacts (root-level safety net)
+desktop/build/
+desktop/dist-electron/
+
+# Logs
+*.log
